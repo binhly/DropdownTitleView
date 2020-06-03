@@ -24,7 +24,7 @@ open class DropdownTitleView: UIControl {
     public init() {
         super.init(frame: .zero)
         isAccessibilityElement = true
-        accessibilityTraits |= UIAccessibilityTraits.button
+        accessibilityTraits = UIAccessibilityTraits.button
 
         chevron.translatesAutoresizingMaskIntoConstraints = false
         chevron.setContentCompressionResistancePriority(.required, for: .horizontal)
