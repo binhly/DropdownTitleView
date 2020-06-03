@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 46;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -89,12 +89,12 @@
 		6901499F774A6B46617DB679CD83417B /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		7B02E8952DF47D392F533107D60E46DF /* Pods-Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		8669EB0E9B9920FF1EC7E285B23CB1A8 /* Snap.swift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Snap.swift-dummy.m"; sourceTree = "<group>"; };
-		872D34A532E02774F6010FCF23BAE021 /* libPods-Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-Tests.a"; path = "libPods-Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		872D34A532E02774F6010FCF23BAE021 /* libPods-Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		878175681B1BB73E72221BB8D3238988 /* Pods-Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Tests-dummy.m"; sourceTree = "<group>"; };
 		8B6339317D130D1B66226AD205C188BF /* UIView+Render.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIView+Render.swift"; path = "Snap/Core/Infrastructure/Extension/UIView/UIView+Render.swift"; sourceTree = "<group>"; };
 		8CF2BB6C51AB529BD8CDAD63CCF595BF /* SnapshotLayerExpectation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SnapshotLayerExpectation.swift; path = Snap/Core/Application/Expectation/SnapshotLayerExpectation.swift; sourceTree = "<group>"; };
 		91E9CB385E141F73AFB9CE17A9377E41 /* Pods-Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Tests-resources.sh"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		93CC8D25E063555A8EB16C8711A3E5FC /* UIImage+Compare.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIImage+Compare.swift"; path = "Snap/Core/Infrastructure/Extension/UIImage/UIImage+Compare.swift"; sourceTree = "<group>"; };
 		97811F570AC48F50E248990E749AE45F /* Snap.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Snap.h; path = Snap/Core/Infrastructure/Interoperability/Snap.h; sourceTree = "<group>"; };
 		9954B2CF80F5D28AED5FE0F2CB6A9B97 /* Pods-Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Tests.release.xcconfig"; sourceTree = "<group>"; };
@@ -103,7 +103,7 @@
 		A359DEF2CA1FB49C331B0EAEEABCCF53 /* Pods-Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		A9362F5D6EF3DFBCB27A70F757F174F4 /* SnapshotViewMatcher.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SnapshotViewMatcher.swift; path = Snap/Core/Application/Matcher/SnapshotViewMatcher.swift; sourceTree = "<group>"; };
 		AF283E984CC99306DD9381DC188DA320 /* AllDevices+All.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "AllDevices+All.swift"; path = "Snap/Core/Infrastructure/Extension/Device/AllDevices+All.swift"; sourceTree = "<group>"; };
-		B0BD0E69D8C9007B003D1C9DBC66CE2D /* libPods-DropdownTitleView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-DropdownTitleView.a"; path = "libPods-DropdownTitleView.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0BD0E69D8C9007B003D1C9DBC66CE2D /* libPods-DropdownTitleView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DropdownTitleView.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B1418F248AC3A2EA41821B4CDEBC5524 /* Snap.swift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; name = Snap.swift.modulemap; path = ../../Headers/Public/Snap_swift/Snap.swift.modulemap; sourceTree = "<group>"; };
 		B272A60EF0C76ABB5E6BCD8C89047F05 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
 		B2D7F15386D38F8B9B0ABA08FD04EAF2 /* SnapshotLayerMatcher.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SnapshotLayerMatcher.swift; path = Snap/Core/Application/Matcher/SnapshotLayerMatcher.swift; sourceTree = "<group>"; };
@@ -120,7 +120,7 @@
 		F6686794B1E480185716BC745F2A55D5 /* Snap.swift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Snap.swift-umbrella.h"; path = "../../Headers/Public/Snap_swift/Snap.swift-umbrella.h"; sourceTree = "<group>"; };
 		F6A9EB8A4CDE881311A6DC811DE1E89C /* ApplicationEnvironment.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ApplicationEnvironment.swift; path = Snap/Core/Infrastructure/Utils/Environment/ApplicationEnvironment.swift; sourceTree = "<group>"; };
 		FD8CD77F6A514F9814814E5C082EFFE5 /* Recordable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Recordable.swift; path = Snap/Core/Application/Recordable/Recordable.swift; sourceTree = "<group>"; };
-		FE55C4184A56F058F7393E763DCD1DAF /* libSnap.swift.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libSnap.swift.a; path = libSnap.swift.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE55C4184A56F058F7393E763DCD1DAF /* libSnap.swift.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libSnap.swift.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -235,7 +235,6 @@
 				8B6339317D130D1B66226AD205C188BF /* UIView+Render.swift */,
 				C461ECDD8FA60FB0F71B0E57F7D3C8EF /* Support Files */,
 			);
-			name = Snap.swift;
 			path = Snap.swift;
 			sourceTree = "<group>";
 		};
@@ -383,7 +382,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0930;
-				LastUpgradeCheck = 0930;
+				LastUpgradeCheck = 1010;
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -428,7 +427,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "COMPATIBILITY_HEADER_PATH=\"${BUILT_PRODUCTS_DIR}/Swift Compatibility Header/${PRODUCT_MODULE_NAME}-Swift.h\"\nMODULE_MAP_PATH=\"${BUILT_PRODUCTS_DIR}/${PRODUCT_MODULE_NAME}.modulemap\"\n\nditto \"${DERIVED_SOURCES_DIR}/${PRODUCT_MODULE_NAME}-Swift.h\" \"${COMPATIBILITY_HEADER_PATH}\"\nditto \"${PODS_ROOT}/Headers/Public/Snap_swift/Snap.swift.modulemap\" \"${MODULE_MAP_PATH}\"\nditto \"${PODS_ROOT}/Headers/Public/Snap_swift/Snap.swift-umbrella.h\" \"${BUILT_PRODUCTS_DIR}\"\nprintf \"\\n\\nmodule ${PRODUCT_MODULE_NAME}.Swift {\\n  header \\\"${COMPATIBILITY_HEADER_PATH}\\\"\\n  requires objc\\n}\\n\" >> \"${MODULE_MAP_PATH}\"\n";
-			showEnvVarsInLog = 1;
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -568,8 +566,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
@@ -742,6 +739,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Release;
@@ -766,8 +764,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
