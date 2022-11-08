@@ -44,7 +44,7 @@ open class DropdownTitleView: UIControl {
 
         subtitleLabel.translatesAutoresizingMaskIntoConstraints = false
         subtitleLabel.backgroundColor = .clear
-        subtitleLabel.textAlignment = .center
+        subtitleLabel.textAlignment = .left
         subtitleLabel.lineBreakMode = .byTruncatingHead
         subtitleLabel.adjustsFontSizeToFitWidth = true
         subtitleLabel.minimumScaleFactor = 0.75
@@ -54,7 +54,7 @@ open class DropdownTitleView: UIControl {
 
         verticalStackView.isUserInteractionEnabled = false
         verticalStackView.translatesAutoresizingMaskIntoConstraints = false
-        verticalStackView.alignment = .center
+        verticalStackView.alignment = .left
         verticalStackView.axis = .vertical
         verticalStackView.distribution = .equalCentering
         verticalStackView.addArrangedSubview(titleLabel)
