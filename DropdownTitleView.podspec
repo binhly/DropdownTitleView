@@ -8,6 +8,6 @@ Pod::Spec.new do |spec|
   spec.source       = { :git => 'https://github.com/GitHawkApp/DropdownTitleView.git', :tag => spec.version.to_s }
   spec.source_files = 'Source/*.swift'
   spec.resources    = "Source/Assets.xcassets"
-  spec.platform     = :ios, '15.6'
+  spec.platform     = :ios, '16.6'
   spec.swift_version = '4.0'
 end
